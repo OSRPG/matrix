@@ -8,7 +8,7 @@ def read_permanence(permanence_file_name):					### a function to read and import
 	permanence=[]								# create empty permanence variable, of type "list"
 	
 	for line in perm_file_handle:						# walk through the file, line by line
-		line = str.split( str(line).replace(',',' ') )			# split multiple numbers in the line and remove commas
+		line = str.split( str(line).replace(',',' ') )			# split multiple patterns in the line and remove commas
 		
 		for piece in line:						# walk through the pieces
 			if piece.isdigit() and len(piece) < 3:			# check for digit and length
