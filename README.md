@@ -18,11 +18,10 @@ everybody is welcome!
 
 
 
-trizero,youroul.com
-
+trizero, youroul.com
+<br>
 current files:
 
 matrix.py - introducing to permanence reading
-
 
 rnd_matrix.py - uses PRNG and command line options, try ./rnd_matrix.py -h ;-)
