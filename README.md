@@ -6,10 +6,10 @@ matrix - hello world!
 
 this script is meant to create a matrix: 
 
-number fallen, first dimension
+number fallen, first dimension\n
 next number fallen, second dimension
 
-this shall be kind of a workshop to roulette programming
+this shall be kind of a workshop to roulette programming\n
 everybody is welcome!
 
 trizero,youroul.com
