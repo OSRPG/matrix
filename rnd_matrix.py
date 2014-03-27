@@ -6,7 +6,7 @@ def read_permanence(permanence_file_name, max_coups):		        	### a function t
 	except: return(-1)							# error: could not read the file
 
 	permanence=[]								# create empty permanence variable, of type "list"
-	current_length = 0
+	current_length = 0							# create counting variable
 
 	for line in perm_file_handle:						# walk through the file, line by line
 		if current_length >= max_coups: break		        	# stop reading the file
@@ -21,7 +21,7 @@ def read_permanence(permanence_file_name, max_coups):		        	### a function t
 
 				if num_piece >= 0 and num_piece <= 36: 		# we use numbers from 0 to 36, no 00 here
 					permanence.append(num_piece)		# add the number to the permanence variable
-					current_length += 1					# count this number
+					current_length += 1			# count this number
 
 	perm_file_handle.close()						# close the permanence file
 
