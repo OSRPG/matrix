@@ -25,7 +25,7 @@ def read_permanence(permanence_file_name):					### a function to read and import
 
 
 def main(): 									# where the programme really starts
-	permanence_file_name = "permanence.txt"					# string variable with the a file name
+	permanence_file_name = "permanence.txt"					# string variable with the file name
 	permanence = read_permanence(permanence_file_name)			# fill the variable by reading the file with the function
 	
 	if permanence == -1: 
