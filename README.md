@@ -14,4 +14,12 @@ this shall be kind of a workshop to roulette programming
 
 everybody is welcome!
 
-trizero
+trizero,
+youroul.com
+
+
+current files:
+
+matrix.py - introducing to permanence reading
+
+rnd_matrix.py - uses PRNG and command line options, try ./rnd_matrix.py -h ;-)
