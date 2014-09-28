@@ -18,7 +18,7 @@ everybody is welcome!
 
 
 
-trizero, youroul.com
+trizero, <a href="http://en.youroul.com">youroul.com - Roulette Strategy Simulation</a>
 <br>
 current files:
 
